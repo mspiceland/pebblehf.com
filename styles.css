@@ -342,19 +342,33 @@ body {
 
 .shop-link {
     display: inline-block;
-    font-size: 1.125rem;
-    color: var(--forest-green);
+    font-size: 1.25rem;
+    color: var(--white);
+    background-color: var(--forest-green);
     text-decoration: none;
-    padding: 0.75rem 1.5rem;
-    border: 2px solid var(--forest-green);
+    padding: 1rem 2rem;
     border-radius: 8px;
     margin: 1rem 0 1.5rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 600;
 }
 
 .shop-link:hover {
-    background-color: var(--forest-green);
-    color: var(--white);
+    background-color: var(--accent-green);
+    transform: translateY(-2px);
+}
+
+.purchase-instructions {
+    font-size: 1.125rem;
+    color: var(--dark-grey);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.form-container {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .disclaimer {
@@ -362,6 +376,7 @@ body {
     font-style: italic;
     color: var(--dark-grey);
     line-height: 1.8;
+    margin-top: 2rem;
 }
 
 /* Footer */
