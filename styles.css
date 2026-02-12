@@ -222,6 +222,21 @@ body {
     background-color: var(--light-bg);
 }
 
+/* Full Width Image Section */
+.full-width-image-section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--white);
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
 .key-points {
     list-style: none;
     padding: 0;
