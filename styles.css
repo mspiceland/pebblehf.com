@@ -197,24 +197,30 @@ body {
     color: var(--white);
 }
 
-.highlight-box {
-    width: 100%;
-    height: 350px;
-    background-color: var(--light-bg);
-    border-radius: 12px;
+.video-box {
+    flex: 1.5;
+    min-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
 }
 
-.highlight-text {
-    font-size: 7rem;
-    font-weight: 700;
-    color: var(--forest-green);
-    line-height: 1.2;
-    text-align: center;
-    margin: 0;
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 /* Different Section */
@@ -469,8 +475,9 @@ footer p {
         padding: 0 1.5rem;
     }
 
-    .highlight-box {
-        height: 250px;
+    .video-box {
+        padding: 1rem;
+        min-width: 100%;
     }
 
     .highlight-text {
