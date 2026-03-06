@@ -299,6 +299,17 @@ body {
     object-fit: contain;
 }
 
+.build-kit-image {
+    margin-top: 3rem;
+}
+
+.full-section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
 .note {
     font-size: 0.9rem;
     font-style: italic;
