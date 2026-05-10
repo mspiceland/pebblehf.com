@@ -1,0 +1,50 @@
+.docs-page {
+    padding-top: 100px;
+    padding-bottom: 4rem;
+    min-height: calc(100vh - 200px);
+}
+
+.docs-page h1 {
+    font-size: 2.5rem;
+    color: var(--forest-green);
+    margin-bottom: 3rem;
+}
+
+.docs-section {
+    margin-bottom: 3rem;
+}
+
+.docs-section h2 {
+    font-size: 1.5rem;
+    color: var(--forest-green);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--light-grey);
+}
+
+.docs-section p {
+    font-size: 1.125rem;
+    color: var(--dark-grey);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.docs-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.docs-list li {
+    margin-bottom: 0.75rem;
+    font-size: 1.125rem;
+    color: var(--dark-grey);
+}
+
+.docs-list a {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+.docs-list a:hover {
+    color: #0b0080;
+}
