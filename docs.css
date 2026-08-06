@@ -48,3 +48,8 @@
 .docs-list a:hover {
     color: #0b0080;
 }
+
+.video-sections {
+    font-size: 0.95rem;
+    color: var(--dark-grey);
+}
